@@ -1,6 +1,5 @@
 # gioz_tarot
 Landing page para agendamentos de Tarot. 🪄
-🔮 Landing Page — Agendamentos de Tarot
 
 Este projeto é uma landing page desenvolvida para apresentar meus serviços como taróloga e centralizar o agendamento de consultas online.
 
