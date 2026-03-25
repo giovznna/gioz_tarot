@@ -3,11 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>gioz tarot — consultas online</title>
+<title>Gioz Tarot ∙ Consultas Online</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.ico">
 </head>
 <body>
 
@@ -19,7 +20,7 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-ornament">☽ ✦ ☾</div>
+  <div class="hero-ornament">✸</div>
   <p class="hero-eyebrow">Consultas online de tarot</p>
   <h1>Clareza<br>para o que <em>importa</em></h1>
   <p class="hero-sub">Um espaço para consultas oraculares. Olhar para dentro com cuidado e acolhimento para os próximos passos.</p>
@@ -37,7 +38,7 @@
     <div class="sobre-body">
       <h2>Olá, sou <em>Gioz</em></h2>
       <p>Trabalho com tarot há seis anos, como prática de autoconhecimento e orientação. Não como adivinhação, mas como ferramenta de reflexão. Cada sessão é construída em conjunto: você traz a pergunta, as cartas trazem a imagem, e a gente interpreta juntos.</p>
-      <p>Você pode me interromper, questionar, aprofundar. A tiragem é nossa — minha leitura encontra a sua percepção.</p>
+      <p>Você pode me interromper, questionar, aprofundar. A tiragem é nossa: minha leitura encontra a sua percepção.</p>
       <div class="blockquote">
         "Acredito que cada consulta é um encontro. Velas, incensos e intenção fazem parte do processo, para que a energia esteja bem direcionada desde o início."
       </div>
@@ -50,62 +51,70 @@
 <div class="section reveal" id="servicos">
   <p class="eyebrow">Consultas</p>
   <h2>Como posso <em>te ajudar</em></h2>
-  <div class="servicos-grid">
+  <div class="carousel" id="carousel-servicos">
+    <div class="carousel-track" id="servicos-track">
 
-    <div class="servico-card">
-      <div class="servico-top">
-        <span class="servico-nome">Uma pergunta — promocional</span>
-        <span class="servico-preco"><b>$10</b></span>
+      <div class="servico-card">
+        <div class="servico-top">
+          <span class="servico-nome">Uma pergunta — promocional</span>
+          <span class="servico-preco"><b>$10</b></span>
+        </div>
+        <span class="servico-tag">Objetiva</span>
+        <p class="servico-desc">Uma pergunta direta ao tarot. Você recebe foto das cartas que saíram + áudio com minha interpretação. Rápida, prática e certeira — ótima porta de entrada.</p>
       </div>
-      <span class="servico-tag">Objetiva</span>
-      <p class="servico-desc">Uma pergunta direta ao tarot. Você recebe foto das cartas que saíram + áudio com minha interpretação. Rápida, prática e certeira — ótima porta de entrada.</p>
-    </div>
 
-    <div class="servico-card">
-      <div class="servico-top">
-        <span class="servico-nome">Uma pergunta — consulta completa</span>
-        <span class="servico-preco"><b>$35</b></span>
+      <div class="servico-card">
+        <div class="servico-top">
+          <span class="servico-nome">Uma pergunta — consulta completa</span>
+          <span class="servico-preco"><b>$35</b></span>
+        </div>
+        <span class="servico-tag">Até 20 min ao vivo</span>
+        <p class="servico-desc">A gente interpreta as cartas juntos, em tempo real. Você pode me interromper, tirar dúvidas e aprofundar o que surgir. A tiragem é conjunta — minha leitura e a sua percepção se encontram.</p>
       </div>
-      <span class="servico-tag">Até 20 min ao vivo</span>
-      <p class="servico-desc">A gente interpreta as cartas juntos, em tempo real. Você pode me interromper, tirar dúvidas e aprofundar o que surgir. A tiragem é conjunta — minha leitura e a sua percepção se encontram.</p>
-    </div>
 
-    <div class="servico-card">
-      <div class="servico-top">
-        <span class="servico-nome">Mais de uma pergunta</span>
-        <span class="servico-preco">a combinar</span>
+      <div class="servico-card">
+        <div class="servico-top">
+          <span class="servico-nome">Mais de uma pergunta</span>
+          <span class="servico-preco">a combinar</span>
+        </div>
+        <span class="servico-tag">Personalizado</span>
+        <p class="servico-desc">Tem mais de uma coisa na cabeça? Conseguimos fazer um valor menor por pergunta adicional. Me conta o que você precisa e a gente alinha.</p>
       </div>
-      <span class="servico-tag">Personalizado</span>
-      <p class="servico-desc">Tem mais de uma coisa na cabeça? Conseguimos fazer um valor menor por pergunta adicional. Me conta o que você precisa e a gente alinha.</p>
-    </div>
 
-    <div class="servico-card">
-      <div class="servico-top">
-        <span class="servico-nome">Taxa de emergência</span>
-        <span class="servico-preco"><b>$15</b></span>
+      <div class="servico-card">
+        <div class="servico-top">
+          <span class="servico-nome">Taxa de emergência</span>
+          <span class="servico-preco"><b>$15</b></span>
+        </div>
+        <span class="servico-tag">Atendimento prioritário</span>
+        <p class="servico-desc">Precisa ser atendida com mais rapidez? A taxa de emergência garante prioridade na fila — acrescente ao valor da sua consulta e me avise.</p>
       </div>
-      <span class="servico-tag">Atendimento prioritário</span>
-      <p class="servico-desc">Precisa ser atendida com mais rapidez? A taxa de emergência garante prioridade na fila — acrescente ao valor da sua consulta e me avise.</p>
-    </div>
 
-    <div class="servico-card">
-      <div class="servico-top">
-        <span class="servico-nome">Perguntas livres ao tarot</span>
-        <span class="servico-preco"><b>$80</b></span>
+      <div class="servico-card">
+        <div class="servico-top">
+          <span class="servico-nome">Perguntas livres ao tarot</span>
+          <span class="servico-preco"><b>$80</b></span>
+        </div>
+        <span class="servico-tag">50 min ao vivo</span>
+        <p class="servico-desc">Uma sessão mais longa, sem tema fixo — você pergunta o que quiser ao longo do encontro. Espaço para explorar diferentes áreas da vida com calma e profundidade.</p>
       </div>
-      <span class="servico-tag">50 min ao vivo</span>
-      <p class="servico-desc">Uma sessão mais longa, sem tema fixo — você pergunta o que quiser ao longo do encontro. Espaço para explorar diferentes áreas da vida com calma e profundidade.</p>
-    </div>
 
+    </div>
   </div>
-  <p class="valores-nota">✦ Os valores refletem não só o meu trabalho, mas também os materiais que uso em cada sessão — velas, incensos e tudo que compõe o ritual para que a energia esteja bem direcionada.</p>
+
+  <div class="carousel-controls">
+    <button class="carousel-btn" id="servicos-prev" aria-label="Anterior">&#8592;</button>
+    <div class="carousel-dots" id="servicos-dots"></div>
+    <button class="carousel-btn" id="servicos-next" aria-label="Próximo">&#8594;</button>
+  </div>
+  <p class="valores-nota">Os valores refletem não só o meu trabalho, mas também os materiais que uso em cada sessão: velas, incensos e tudo que compõe essa troca, para que a energia esteja bem direcionada.</p>
 </div>
 
 <!-- COMO FUNCIONA -->
 <div class="bg-cream2">
 <div class="section reveal" id="como">
   <p class="eyebrow">Como funciona</p>
-  <h2>Simples <em>assim</em></h2>
+  <h2>Passo <em>a passo</em></h2>
   <div class="steps">
     <div class="step">
       <div class="step-num">01</div>
@@ -132,7 +141,7 @@
       <div class="step-num">04</div>
       <div class="step-body">
         <h3>Você leva a clareza</h3>
-        <p>A interpretação fica com você — para refletir, revisitar e integrar no seu próprio tempo.</p>
+        <p>A interpretação fica com você! Para refletir, revisitar e integrar no seu próprio tempo.</p>
       </div>
     </div>
   </div>
@@ -143,73 +152,83 @@
 <div class="section reveal" id="depoimentos">
   <p class="eyebrow">Depoimentos</p>
   <h2>O que dizem <em>os consulentes</em></h2>
-  <p class="valores-nota" style="margin-bottom:1.5rem;">✦ Os feedbacks são reais — você pode conferir no destaque do meu Instagram <a href="https://instagram.com/__gioz" target="_blank" style="color:var(--plum);text-decoration:none;border-bottom:1px solid var(--plum-dim);">@__gioz</a></p>
-  <div class="depos-grid">
+  <p class="valores-nota" style="margin-bottom:1.5rem;">Os feedbacks são reais! Você pode conferir no destaque do meu Instagram <a href="https://instagram.com/__gioz" target="_blank" style="color:var(--plum);text-decoration:none;border-bottom:1px solid var(--plum-dim);">@__gioz</a></p>
 
-    <div class="depo">
-      <div class="depo-quote">"</div>
-      <div class="depo-stars">★★★★★</div>
-      <p class="depo-text">Lembra a leitura que você fez pra mim uns meses atrás? Meio que tudo aconteceu daquela maneira. Me guiou, me deu um direcionamento e me deu coragem. Obrigada, de coração!</p>
-      <span class="depo-autor">via WhatsApp</span>
+  <div class="carousel">
+    <div class="carousel-track" id="depos-track">
+
+      <div class="depo">
+        <div class="depo-quote">"</div>
+        <div class="depo-stars">★★★★★</div>
+        <p class="depo-text">Lembra a leitura que você fez pra mim uns meses atrás? Meio que tudo aconteceu daquela maneira. Me guiou, me deu um direcionamento e me deu coragem. Obrigada, de coração!</p>
+        <span class="depo-autor">via WhatsApp</span>
+      </div>
+
+      <div class="depo">
+        <div class="depo-quote">"</div>
+        <div class="depo-stars">★★★★★</div>
+        <p class="depo-text">Vc falou tudo que tá acontecendo to assim — nua e crua. Me deu um alívio, sabe. Eu amei, amei mesmo.</p>
+        <span class="depo-autor">via WhatsApp</span>
+      </div>
+
+      <div class="depo">
+        <div class="depo-quote">"</div>
+        <div class="depo-stars">★★★★★</div>
+        <p class="depo-text">Por mais que o objetivo da tiragem não seja dar a "resposta", eu sinto que to acolhida e direcionada.</p>
+        <span class="depo-autor">via WhatsApp</span>
+      </div>
+
+      <div class="depo">
+        <div class="depo-quote">"</div>
+        <div class="depo-stars">★★★★★</div>
+        <p class="depo-text">Tudo fez muito sentido amiga. Sua leitura e interpretação é muito aprofundada e sútil ao mesmo tempo. Amei a consulta com você!</p>
+        <span class="depo-autor">via WhatsApp</span>
+      </div>
+
+      <div class="depo">
+        <div class="depo-quote">"</div>
+        <div class="depo-stars">★★★★★</div>
+        <p class="depo-text">Ontem a Gio fez uma tiragem de tarot pra mim e meu deus, nunca tive tanta confirmação.</p>
+        <span class="depo-autor">via Twitter</span>
+      </div>
+
+      <div class="depo">
+        <div class="depo-quote">"</div>
+        <div class="depo-stars">★★★★★</div>
+        <p class="depo-text">Senti que foi pra mim mesmo essas cartas. Tem mesmo haver. Ajudou d+. Agr tô mais tranquilo. Vou seguir minha trilha.</p>
+        <span class="depo-autor">via WhatsApp</span>
+      </div>
+
+      <div class="depo">
+        <div class="depo-quote">"</div>
+        <div class="depo-stars">★★★★★</div>
+        <p class="depo-text">Me ajudou demais, sem dúvidas vou levar comigo esses conselhos. Me esclareceu muito, não tenho dúvidas. Já te indiquei pras minhas amigas!</p>
+        <span class="depo-autor">via WhatsApp</span>
+      </div>
+
+      <div class="depo">
+        <div class="depo-quote">"</div>
+        <div class="depo-stars">★★★★★</div>
+        <p class="depo-text">Te indicarei de olhos fechados. Gostei da sua interpretação, foi leve, mas foi pontual. Muito obrigada!</p>
+        <span class="depo-autor">via WhatsApp</span>
+      </div>
+
+      <div class="depo">
+        <div class="depo-quote">"</div>
+        <div class="depo-stars">★★★★★</div>
+        <p class="depo-text">Gio, muito obrigada. Vc me ajudou demais. Nossa, não tenho nem como te agradecer.</p>
+        <span class="depo-autor">via WhatsApp</span>
+      </div>
+
     </div>
-
-    <div class="depo">
-      <div class="depo-quote">"</div>
-      <div class="depo-stars">★★★★★</div>
-      <p class="depo-text">Vc falou tudo que tá acontecendo to assim — nua e crua. Me deu um alívio, sabe. Eu amei, amei mesmo.</p>
-      <span class="depo-autor">via WhatsApp</span>
-    </div>
-
-    <div class="depo">
-      <div class="depo-quote">"</div>
-      <div class="depo-stars">★★★★★</div>
-      <p class="depo-text">Por mais que o objetivo da tiragem não seja dar a "resposta", eu sinto que to acolhida e direcionada.</p>
-      <span class="depo-autor">via WhatsApp</span>
-    </div>
-
-    <div class="depo">
-      <div class="depo-quote">"</div>
-      <div class="depo-stars">★★★★★</div>
-      <p class="depo-text">Tudo fez muito sentido amiga. Sua leitura e interpretação é muito aprofundada e sútil ao mesmo tempo. Amei a consulta com você!</p>
-      <span class="depo-autor">via WhatsApp</span>
-    </div>
-
-    <div class="depo">
-      <div class="depo-quote">"</div>
-      <div class="depo-stars">★★★★★</div>
-      <p class="depo-text">Ontem a Gio fez uma tiragem de tarot pra mim e meu deus, nunca tive tanta confirmação.</p>
-      <span class="depo-autor">via Twitter</span>
-    </div>
-
-    <div class="depo">
-      <div class="depo-quote">"</div>
-      <div class="depo-stars">★★★★★</div>
-      <p class="depo-text">Senti que foi pra mim mesmo essas cartas. Tem mesmo haver. Ajudou d+. Agr tô mais tranquilo. Vou seguir minha trilha.</p>
-      <span class="depo-autor">via WhatsApp</span>
-    </div>
-
-    <div class="depo">
-      <div class="depo-quote">"</div>
-      <div class="depo-stars">★★★★★</div>
-      <p class="depo-text">Me ajudou demais, sem dúvidas vou levar comigo esses conselhos. Me esclareceu muito, não tenho dúvidas. Já te indiquei pras minhas amigas!</p>
-      <span class="depo-autor">via WhatsApp</span>
-    </div>
-
-    <div class="depo">
-      <div class="depo-quote">"</div>
-      <div class="depo-stars">★★★★★</div>
-      <p class="depo-text">Te indicarei de olhos fechados. Gostei da sua interpretação, foi leve, mas foi pontual. Muito obrigada!</p>
-      <span class="depo-autor">via WhatsApp</span>
-    </div>
-
-    <div class="depo">
-      <div class="depo-quote">"</div>
-      <div class="depo-stars">★★★★★</div>
-      <p class="depo-text">Gio, muito obrigada. Vc me ajudou demais. Nossa, não tenho nem como te agradecer.</p>
-      <span class="depo-autor">via WhatsApp</span>
-    </div>
-
   </div>
+
+  <div class="carousel-controls">
+    <button class="carousel-btn" id="prev" aria-label="Anterior">&#8592;</button>
+    <div class="carousel-dots" id="dots"></div>
+    <button class="carousel-btn" id="next" aria-label="Próximo">&#8594;</button>
+  </div>
+
 </div>
 
 <!-- FORMULÁRIO -->
@@ -247,7 +266,7 @@
 
     <div class="form-group">
       <label for="pergunta">Sua pergunta ou tema (opcional)</label>
-      <textarea id="pergunta" placeholder="Pode me contar um pouco sobre o que você quer explorar..."></textarea>
+      <textarea id="pergunta" placeholder="Pode me contar um pouco sobre o que você deseja se aprofundar..."></textarea>
     </div>
 
     <a id="btn-wpp-send" href="#" target="_blank" class="btn-submit" style="display:flex;align-items:center;justify-content:center;gap:0.6rem;text-decoration:none;">
@@ -256,28 +275,7 @@
     </a>
   </div>
 
-  <script>
-    function montarLink() {
-      const nome = document.getElementById('nome').value.trim();
-      const consulta = document.getElementById('consulta').value;
-      const pergunta = document.getElementById('pergunta').value.trim();
-      const emergencia = document.getElementById('emergencia').value;
 
-      let msg = 'olá, gioz! quero agendar uma tiragem.\n\n';
-      if (nome) msg += 'Nome: ' + nome + '\n';
-      if (consulta) msg += 'Consulta: ' + consulta + '\n';
-      if (emergencia === 'sim') msg += 'Taxa de emergência: Sim (+$15)\n';
-      if (pergunta) msg += '\n Tema/pergunta: ' + pergunta;
-
-      const url = 'https://wa.me/5531982965586?text=' + encodeURIComponent(msg);
-      document.getElementById('btn-wpp-send').href = url;
-    }
-
-    ['nome','consulta','pergunta','emergencia'].forEach(id => {
-      document.getElementById(id).addEventListener('input', montarLink);
-    });
-    montarLink();
-  </script>
 
 </div>
 </section>
@@ -285,7 +283,8 @@
 <!-- FOOTER -->
 <footer>
   <div class="footer-logo">GIOZ <span>TAROT</span></div>
-  <p class="footer-sub">Consultas online · com cuidado e intenção</p>
+  <p class="footer-sub">Consultas online ✸ com cuidado e intenção </p>
+  <p class="footer-curious"><br>Curiosidade para você que chegou até aqui:<br> Este site foi desenvolvido por mim. 𐦍</p>
 </footer>
 
 <script src="script.js"></script>
