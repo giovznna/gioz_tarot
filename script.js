@@ -79,13 +79,17 @@ function criarCarrossel(trackEl, dotsEl, prevBtn, nextBtn) {
   }
 
   function goTo(index) {
-    current = Math.max(0, Math.min(index, total() - 1));
-    aplicarLarguras();
-    const w = calcWidth();
-    const gap = 20;
-    trackEl.style.transform = 'translateX(-' + (current * (w + gap)) + 'px)';
-    updateDots();
-  }
+  current = Math.max(0, Math.min(index, total() - 1));
+  aplicarLarguras();
+  const w = calcWidth();
+  const gap = 20;
+  const isLastOdd = current === total() - 1 && items.length % perView() !== 0;
+  const offset = isLastOdd
+    ? (items.length - 1) * (w + gap)
+    : current * perView() * (w + gap);
+  trackEl.style.transform = 'translateX(-' + offset + 'px)';
+  updateDots();
+}
 
   prevBtn.addEventListener('click', () => goTo(current - 1));
   nextBtn.addEventListener('click', () => goTo(current + 1));
