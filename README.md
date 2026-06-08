@@ -19,3 +19,17 @@ A página foi pensada para transmitir acolhimento, clareza e intenção: refleti
 
 💡 Objetivo:
 Criar um espaço simples, bonito e funcional para facilitar o contato com clientes e tornar o processo de agendamento mais fluido e humanizado.
+
+🏃‍♀️ Como Utilizar
+
+Como este é um projeto front-end puro, você não precisa de um servidor ou de processos de compilação complexos para executá-lo.
+
+Clone o repositório (ou baixe os arquivos):
+
+bash
+git clone https://github.com/giovznna/gioz_tarot.git
+Navegue até a pasta do projeto:
+
+bash
+cd gioz_tarot
+Abra o arquivo index.html diretamente no seu navegador de preferência (como Google Chrome, Firefox, etc.). E pronto! A aplicação estará funcionando localmente.
